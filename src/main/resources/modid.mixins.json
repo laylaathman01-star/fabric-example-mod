@@ -12,3 +12,8 @@
 		"requireAnnotations": true
 	}
 }
+"mixins": [
+    "ExampleMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "WorldRendererMixin"
+  ],
