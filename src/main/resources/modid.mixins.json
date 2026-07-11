@@ -11,4 +11,8 @@
 	"overwrites": {
 		"requireAnnotations": true
 	}
-}
+}"mixins": [
+    "ExampleMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "WorldRendererMixin"
+  ],
