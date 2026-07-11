@@ -3,7 +3,10 @@
 	"package": "com.example.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"ClientPlayNetworkHandlerMixin",
+		"WorldRendererMixin",
+		"KeyboardMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
